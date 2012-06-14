@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:Georgia, "Times new roman", Times, serif;
+    font-weight:normal;
+    line-height:1.1;
+    color:#3562e0;
+    }
+
+p {
+    font-size:14px;
+    line-height:1.5;
+    }
+
+.belt {
+    clear:both;
+    overflow:hidden;
+    }
+.column {
+    float:left;
+    width:25%;
+    }
+.column p {
+    margin:0;
+    }
+.column h4 {
+    margin-bottom:0;
+    }

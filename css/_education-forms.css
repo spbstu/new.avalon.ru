@@ -1,0 +1,23 @@
+.education-forms {
+    overflow:hidden;
+    margin-top:8px;
+    padding:8px 0 8px 262px;
+    border-top:solid 1px rgb(61, 108, 250);
+    }
+    .education-form {
+        width:20%;
+        float:left;
+        }
+    .education-form h2 {
+        font-weight:normal;
+        font-size:16px;
+        line-height:1.0;
+        height:3em;
+        margin:0;
+        margin-right:20px;
+        color:#FFF;
+        }
+    .education-form p {
+        font-size:12px;
+        margin-right:20px;
+        }

@@ -1,0 +1,29 @@
+.globalnav {
+    overflow:hidden;
+    }
+    .globalnav ul {
+        margin:0 0 3px;
+        padding:0;
+        /*text-align:center;*/
+        }
+    .globalnav li {
+        font-size:12px;
+        font-weight:bold;
+        display:inline-block;
+        margin-right:10px;
+        }
+    .globalnav a {
+        color: #FFF;
+        text-decoration:none;
+        }
+    .search-small {
+        margin-top:3px;
+        }
+    .search-small input {
+        font-size:13px;
+        padding:3px;
+        width:400px;
+        background:transparent;
+        border: solid 1px #FFF;
+        color:#FFF;
+        }
