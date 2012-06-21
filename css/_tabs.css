@@ -1,16 +1,22 @@
 .tabs {
     margin: 1em 0 0;
-    padding: 0 1ex;
+    /*padding: 0 1ex;*/
     list-style: none;
     overflow: hidden;
     background-image: -webkit-linear-gradient(top, #FFF 0%,
         #FFF 6px,
+        #DADADA 29px,
+        #999 30px,
+        #FFF 30px);
+    background-image: linear-gradient(top, #FFF 0%,
+        #FFF 6px,
         #dadada 26px,
         #ADADAD 27px,
         #FFF 27px);
-    background-image: linear-gradient(top, #FFF 0%, #FFF 90%, #dadada);
     }
 .tabs dt {
+    position: relative;
+    left: 1ex;
     float: left;
     padding: .5ex 2ex;
     }
@@ -19,8 +25,12 @@
     float: right;
     width: 100%;
     margin-left: -100%;
+    margin-top: 26px;
+    background: #FFF;
+    border-top: solid 1px #dadada;
     }
 .tabs .current {
+    position: relative;
     background-image: -webkit-linear-gradient(top, #dadada, #FFF);
     background-image: linear-gradient(top, #dadada, #FFF);
     border-radius: 4px 4px 0 0;
@@ -33,11 +43,11 @@
 .tab-content {
     padding: 12px;
     }
-.tabs a {
+.tabs dt a {
     text-decoration: none;
     color: #333;
 }
-.tabs a:hover {
+.tabs dt a:hover {
     color: #000;
     text-shadow: 0px 0px 4px #FF9;
 }

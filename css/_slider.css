@@ -1,0 +1,19 @@
+.slider {
+    background: #eee;
+    padding: 0 36px;
+    }
+.popular-courses {
+
+    }
+.popular-courses h3 {
+    font-size: 13px;
+    height: 8ex;
+}
+.popular-courses .date {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.popular-courses .duration {
+    font-size: 12px;
+    margin: 0;
+}

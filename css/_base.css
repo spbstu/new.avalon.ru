@@ -29,3 +29,29 @@ p {
 .column h4 {
     margin-bottom:0;
     }
+
+
+.sales-text {
+    margin: 18px 0;
+    }
+    .sales-text blockquote {
+        font-size: 28px;
+        font-family: serif;
+        margin: 0;
+        }
+    .sales-text blockquote:before {
+        content: "«";
+        color: #999;
+        position: relative;
+        }
+    .sales-text blockquote:after {
+        content: "»";
+        color: #999;
+        position: relative;
+
+        }
+    .sales-text .author {
+        font-size: 13px;
+        font-style: italic;
+        margin-left: 80%;
+        }

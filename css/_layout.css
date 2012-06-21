@@ -1,13 +1,12 @@
 body {
 
     }
-
 .page,
 .page-wrapper {
-    max-width:1400px;
-    min-width:990px;
+    max-width:1350px;
+    min-width:960px;
     margin:0 auto;
-    padding: 0 12px;
+    padding: 0 24px;
     }
 header {
     position:relative;
@@ -75,16 +74,26 @@ header {
 .main {
     float:left;
     width:100%;
-    margin-right:-200px;
+    margin-right:-240px;
     }
 .wrapper {
-    margin-right:220px;
+    margin-right:280px;
     }
 
 .promo {
     height:300px;
     background:url(../i/promo.jpg) top center no-repeat;
+    position: relative;
     }
+    .promo-text {
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        width: 33%;
+        padding: 16px;
+        background: rgba(255, 255, 255, 0.8);
+        }
 .courses {
     }
 .courses-departments {
@@ -100,7 +109,7 @@ header {
         }
 .adv {
     float:right;
-    width:200px;
+    width:240px;
     }
 .popular-courses {
     overflow:hidden;
@@ -110,6 +119,12 @@ header {
         width:20%;
         margin-right:20px;
         }
+
+.partners {
+    text-align: center;
+    margin-top: 16px;
+    border-top: solid 1px #666;
+    }
     
 footer {
     margin-top:20px;
@@ -122,6 +137,13 @@ footer {
     footer .copyright {
         float:left;
         }
+        footer .copyright img {
+            float: left;
+            margin-right: 12px;
+        }
+    footer a {
+        color: #FFF;
+    }
     footer .contacts {
         float:right;
         }
